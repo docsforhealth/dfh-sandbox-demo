@@ -7,12 +7,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 <link
     rel="stylesheet"
-    href="main.6be2c56c21f295e62b5f.css?aaad50ad7ae747d24986"
+    href="main.312ba85a2b4ff09bbb8a.css?c92f2c825bc38a3a309c"
 />
 
 </head>
-<body>
-    <nav class="nav">
+<body class="root">
+    <div class="root__contents">
+        <nav class="nav">
     <div class="nav__contents">
         <a href="/">
             <img
@@ -35,44 +36,77 @@
     </div>
 </nav>
 
-        <div>
-            <div>
-                <h1>
-                    <a href="/resources.html">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNi43MDg1IDExLjU1NjhMNC41NTkxNiAyMy42NTU3QzMuODEzNjEgMjQuMzk4MSAzLjgxMzYxIDI1LjYwMTkgNC41NTkxNiAyNi4zNDQzTDE2LjcwODUgMzguNDQzMkMxNy40NTQxIDM5LjE4NTYgMTguNjYyOSAzOS4xODU2IDE5LjQwODQgMzguNDQzMkMyMC4xNTM5IDM3LjcwMDcgMjAuMTUzOSAzNi40OTcgMTkuNDA4NCAzNS43NTQ1TDEwLjUxOCAyNi45MDEySDQ0LjA5MDlDNDUuMTQ1MyAyNi45MDEyIDQ2IDI2LjA1IDQ2IDI1QzQ2IDIzLjk1IDQ1LjE0NTMgMjMuMDk4OCA0NC4wOTA5IDIzLjA5ODhIMTAuNTE4TDE5LjQwODQgMTQuMjQ1NUMyMC4xNTM5IDEzLjUwMyAyMC4xNTM5IDEyLjI5OTMgMTkuNDA4NCAxMS41NTY4QzE4LjY2MjkgMTAuODE0NCAxNy40NTQxIDEwLjgxNDQgMTYuNzA4NSAxMS41NTY4WiIgZmlsbD0iIzM0NTk4MCIvPgo8L3N2Zz4K" alt="Back arrow">
-                        <span>All resources</span>
-                    </a>
-                    Existing court fines
-                </h1>
-                <ul>
-                    <li>
-                        Criminalization
-                    </li>
-                </ul>
-                <p>If your patient has outstanding court fines that, in your assessment, impact their medical or mental health, this form generator will help you to write a letter advocating for your patient’s court fines to be eliminated or reduced.</p>
-                <p>For fines that have already been imposed, patients are typically ordered to make monthly payments according to a pre-specified payment plan. When patients attend court to develop this payment plan, they often do not have an attorney with them, nor is a public defender assigned to the case. This is why the letter must be submitted by the patient directly to the judge.</p>
-            </div>
-            <div>
-                <h2>Documents</h2>
-                <ol>
-                    <li>
-                        Provider advocacy letter
-                        <div>
-                            <button type="button">
-                                Download .docx
-                            </button>
-                            <button type="button">
-                                Generate letter
-                            </button>
-                        </div>
-                    </li>
-                </ol>
-                <h2>Next steps</h2>
-                <p>
-                    The patient should take this letter to the Cost Review office in court. Once there, the patient can either drop the letter off with an administrator for delivery to the judge, or ask to personally deliver the letter to the judge. The goal is for the judge to waive or reduce the patient’s court fees upon reading the letter.
-                </p>
-            </div>
+
+<!-- See `src/partials/end.ejs` for corresponding tags -->
+
+    <div class="resource-detail">
+        <div class="resource-detail__info">
+            <h1 class="heading heading--2">
+                <a href="/resources.html" class="heading__nav">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNi43MDg1IDExLjU1NjhMNC41NTkxNiAyMy42NTU3QzMuODEzNjEgMjQuMzk4MSAzLjgxMzYxIDI1LjYwMTkgNC41NTkxNiAyNi4zNDQzTDE2LjcwODUgMzguNDQzMkMxNy40NTQxIDM5LjE4NTYgMTguNjYyOSAzOS4xODU2IDE5LjQwODQgMzguNDQzMkMyMC4xNTM5IDM3LjcwMDcgMjAuMTUzOSAzNi40OTcgMTkuNDA4NCAzNS43NTQ1TDEwLjUxOCAyNi45MDEySDQ0LjA5MDlDNDUuMTQ1MyAyNi45MDEyIDQ2IDI2LjA1IDQ2IDI1QzQ2IDIzLjk1IDQ1LjE0NTMgMjMuMDk4OCA0NC4wOTA5IDIzLjA5ODhIMTAuNTE4TDE5LjQwODQgMTQuMjQ1NUMyMC4xNTM5IDEzLjUwMyAyMC4xNTM5IDEyLjI5OTMgMTkuNDA4NCAxMS41NTY4QzE4LjY2MjkgMTAuODE0NCAxNy40NTQxIDEwLjgxNDQgMTYuNzA4NSAxMS41NTY4WiIgZmlsbD0iIzM0NTk4MCIvPgo8L3N2Zz4K"
+                        class="heading__nav__image"
+                        alt="Back arrow to return to previous page">
+                    <span class="heading__nav__text">
+                        All resources
+                    </span>
+                </a>
+                Existing court fines
+            </h1>
+            <ul class="unstyled-list margin-b-1">
+                <li class="tag">
+                    Criminalization
+                </li>
+            </ul>
+            <p class="text">
+                If your patient has outstanding court fines that, in your assessment, impact their medical or mental health, this form generator will help you to write a letter advocating for your patient’s court fines to be eliminated or reduced.
+            </p>
+            <p class="text">
+                For fines that have already been imposed, patients are typically ordered to make monthly payments according to a pre-specified payment plan. When patients attend court to develop this payment plan, they often do not have an attorney with them, nor is a public defender assigned to the case. This is why the letter must be submitted by the patient directly to the judge.
+            </p>
         </div>
+        <div class="resource-detail__steps">
+            <h2 class="heading heading--3">
+                <span class="heading__title">Documents</span>
+            </h2>
+            <ol class="resource-steps">
+                <li class="resource-steps__step">
+                    <div class="resource-steps__step__title">
+                        Provider advocacy letter
+                    </div>
+                    <div class="button-container button-container--expand-width">
+                        <button type="button"
+                            class="button-container__button button button--small button--outline">
+                            Download .docx
+                        </button>
+                        <button type="button"
+                            class="button-container__button button button--small button--secondary">
+                            Generate letter
+                        </button>
+                    </div>
+                </li>
+                <li class="resource-steps__step">
+                    <div class="resource-steps__step__title">
+                        Fine waiver form
+                    </div>
+                    <div class="button-container button-container--expand-width">
+                        <button type="button"
+                            class="button-container__button button button--small button--outline">
+                            Download .docx
+                        </button>
+                    </div>
+                </li>
+            </ol>
+            <h2 class="heading heading--3">
+                <span class="heading__title">Next steps</span>
+            </h2>
+            <p class="text">
+                The patient should take this letter to the Cost Review office in court. Once there, the patient can either drop the letter off with an administrator for delivery to the judge, or ask to personally deliver the letter to the judge. The goal is for the judge to waive or reduce the patient’s court fees upon reading the letter.
+            </p>
+        </div>
+    </div>
+<!-- See `src/partials/start.ejs` for corresponding tags -->
+
+    </div>
     <footer class="footer">
     <div class="footer__content">
         <a href="/">
@@ -105,7 +139,8 @@
         </p>
     </div>
 </footer>
-<script src="main.js?aaad50ad7ae747d24986"></script>
+<script src="main.js?c92f2c825bc38a3a309c"></script>
 
 </body>
+
 </html>
